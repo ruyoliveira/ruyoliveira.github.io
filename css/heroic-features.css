@@ -1,0 +1,84 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.course-title{
+    font-family: "Nokia Cellphone FC";
+}
+.course-thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-size: 4vw;
+    color: #ffffff;
+    background-color: #c0392b;
+    height: 200px;
+    width: 100%;
+}
+/* navbar */
+.navbar-default {
+    background-color: #03c4fb ;
+    border-color: #46a3ec;
+}
+/* title */
+.navbar-default .navbar-brand{
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color:  #ffffff;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a{
+    color: #ffffff;
+    font-size: 17px;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  font-size: 17px;
+  background-color: #46a3ec;
+
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #46a3ec;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #46a3ec;
+}
+
+@font-face {
+    font-family: "Nokia Cellphone FC";
+
+    src: url('../fonts/nokiafc22.ttf') format('truetype');
+}
