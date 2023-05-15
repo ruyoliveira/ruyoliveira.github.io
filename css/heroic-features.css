@@ -14,6 +14,11 @@ body {
 
 .hero-feature {
     margin-bottom: 30px;
+    padding: 10px;
+}
+.featured {
+    outline: solid 4px #fbef03 ;
+    background-color: #ffffff;
 }
 
 footer {
